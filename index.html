@@ -7,47 +7,221 @@
     <title>Portfolio | Jomi Susan Mathew</title>
 
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/ebb412401a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="header">
-        <img src="./images/menu.png" alt="" class="menubar" id="menu-icon">
+        <i class="fa-solid fa-bars" class="menubar" id="menu-icon"></i>
         <nav class="navbar">
 
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#experience">Experience</a>
+            <a href="#work-experience">Experience</a>
             <a href="#project">Project</a>
         </nav>
+    </header>
 
-        <section class="home">
-            <div class="home-elements">
-                <h3>Hi, Myself</h3>
-                <h1>Jomi Susan Mathew</h1>
-                <h3>And I'm a <span>Developer</span> </h3>
-                <p>Transforming Yesterday's Setbacks into Today's Triumphs, Paving the Way for Tomorrow's Unstoppable
-                    Inspiration.</p>
-                <div class="social-media">
-                    <a href="#"><img src="./images/github-icon.svg" alt=""></a>
-                    <a href="#"><img src="./images/linkedin.svg" alt=""></a>
-                </div>
-                <a href="#" class="btn">Download CV</a>
+    <section class="home" id="home">
+        <div class="home-elements">
+            <h3>Hi, Myself</h3>
+            <h1>Jomi Susan Mathew</h1>
+            <h3>And I'm a <span>Developer</span> </h3>
+            <p>Transforming Yesterday's Setbacks into Today's Triumphs, Paving the Way for Tomorrow's Unstoppable
+                Inspiration.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
 
-            <div class="home-pic">
-                <img src="./images/my-photo.png" class="profile-pic" alt="">
-            </div>
-        </section>
+        <div class="home-pic">
+            <img src="./images/my-photo.png" class="profile-pic" alt="">
+        </div>
+    </section>
 
-        <section class="about-content">
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/no background.png" alt="">
+        </div>
+
+        <div class="about-content">
             <h2 class="heading">
                 ABOUT <span>Me</span>
             </h2>
-            <p></p>
-        </section>
+            <p>An enthusiastic hardworking girl seeking the real meaning of life, to make the world a better place
+                to live, backed with an intense passion for technology, and lessons from life. Loves to acquire new
+                insights in every field to raise the standard of living of my country and my society.</p>
+        </div>
+    </section>
+
+    <section class="work-experience" id="work-experience">
+        <h2 class="heading">My <span>Services</span> </h2>
+        <div class="experience-container">
+            <div class="experience-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Software Engineer Intern</h3>
+                <p>I worked as a Software Engineer Intern at Hopnmove Private Limited for 3 months</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="experience-box">
+                <i class="fa-solid fa-pen"></i>
+                <h3>Content Writer Intern</h3>
+                <p>I worked as a Content Writer Intern at Gtech Mulearn for 3 months</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span> </h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class="fa-brands fa-react"></i>
+                <p>React</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-python"></i>
+                <p>Python</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-solid fa-c"></i>
+                <p>C</p>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-solid fa-database"></i>
+                <p>MySql</p>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-solid fa-pen"></i>
+                <p>Content Writing</p>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML</p>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-brands fa-css3"></i>
+                <p>CSS</p>
+            </div>
+
+            <!-- <div class="skill-box">
+                <img src="./images/Deno (1).svg" alt="">
+                <p>Deno</p>
+            </div> -->
+
+            <div class="skill-box">
+                <i class="fa-brands fa-figma"></i>
+                <p>Figma</p>
+            </div>
+
+            <!-- <div class="skill-box">
+                <img src="./images/Typescript_logo_2020.svg.png" alt="">
+                <p>Typescript</p>
+            </div> -->
 
 
-    </header>
+            <div class="skill-box">
+                <i class="fa-brands fa-node"></i>
+                <p>NodeJS</p>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-brands fa-php"></i>
+                <p>PHP</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="./images/schello.png" alt="">
+                <div class="project-layer">
+                    <h4>Schello (React, NodeJS, Firebase)</h4>
+                    <p>An application to prevent drug abuse among children and crime analysis platform for analyzing
+                        drug incident reports.</p>
+                    <a href=""><img src="./images/external-link.png" alt=""></a>
+
+                </div>
+
+            </div>
+
+            <div class="project-box">
+                <img src="./images/wellness-bot.png" alt="">
+                <div class="project-layer">
+                    <h4>Wellness Bot(React,NodeJS)</h4>
+                    <p>An AI chat bot build on top of ChatGPT model to provide instant counselling for
+                        students.</p>
+                    <a href=""><img src="./images/external-link.png" alt=""></a>
+
+                </div>
+
+            </div>
+
+            <div class="project-box">
+                <img src="./images/jsm-stores.png" alt="">
+                <div class="project-layer">
+                    <h4>Inventory Management App (HTML,CSS,php,SQL) </h4>
+                    <p>Online shopping platform for Buyers and Sellers, with multi-user support, like a mini
+                        Amazon. </p>
+                    <a href=""><img src="./images/external-link.png" alt=""></a>
+
+                </div>
+
+            </div>
+
+            <div class="project-box">
+                <img src="./images/voicebot.png" alt="">
+                <div class="project-layer">
+                    <h4>Voice Bot (Python) </h4>
+                    <p> Engineered a Python-powered voice assistant bot resembling basic Google Assistant,
+                        effectively
+                        addressing user inquiries, resulting in improved user satisfaction and interaction
+                        rates.</p>
+                    <a href=""><img src="./images/external-link.png" alt=""></a>
+
+                </div>
+
+            </div>
+
+            <div class="project-box">
+                <img src="./images/attendo-admin.png" alt="">
+                <div class="project-layer">
+                    <h4>Attendo Admin Panel (React) </h4>
+                    <p>An admin panel for an attendance management app.Features: classroom and subject scheme
+                        management,
+                        user authorization, and the ability to
+                        generate attendance reports.</p>
+                    <a href=""><img src="./images/external-link.png" alt=""></a>
+
+                </div>
+
+            </div>
+
+            <div class="project-box">
+                <img src="./images/attendo-admin.png" alt="">
+                <div class="project-layer">
+                    <h4>Pharmeasy(Flutter,Firebase)</h4>
+                    <p>A Flutter application to efficiently manage pharmaceutical stock within pharmacies.</p>
+                    <a href=""><img src="./images/external-link.png" alt=""></a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
